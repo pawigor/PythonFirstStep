@@ -1,0 +1,12 @@
+from math import sqrt
+
+__author__ = 'z'
+a = int(input());
+b = int(input());
+c = int(input());
+
+p = (a + b + c) / 2;
+
+S = sqrt(p * (p - a) * (p - b) * (p - c))
+
+print(S)
