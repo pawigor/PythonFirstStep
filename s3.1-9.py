@@ -16,8 +16,8 @@ __author__ = 'z'
 # print(lst)               # [5, 4]
 # Функция не должна осуществлять ввод/вывод информации.
 
-def modify_list(alist):
-    alist[:] = [int(item / 2) for item in alist if item % 2 == 0]
+def modify_list(l):
+    l[:] = [int(item / 2) for item in l if item % 2 == 0]
 
 
 l = [0, 1, 2, 4, 5, 7, 8, 9]
